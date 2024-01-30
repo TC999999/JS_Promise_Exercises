@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Promise Exercise: Cards</title>
+  </head>
+  <body>
+    <h1>Draw a Card</h1>
+    <h2 id="deck_info"></h2>
+    <div id="back_of_deck">
+      <img src="https://deckofcardsapi.com/static/img/back.png" alt="" />
+    </div>
+
+    <div>
+      <button id="draw_card_button">Draw a Card</button>
+      <button id="shuffle_deck_button" hidden>Reshuffle the Deck</button>
+    </div>
+
+    <div id="card_div">
+      <p id="card_type"></p>
+      <div id="card_images"></div>
+    </div>
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="deck_of_cards.js"></script>
+  </body>
+</html>
